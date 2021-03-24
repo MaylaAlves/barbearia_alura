@@ -1,21 +1,28 @@
 body{
-
-    background-color: #FF1493
+    color: #FFFFFF;
 }
 
 #banner{
     width: 100%;
-    height: 600px;
+    height: auto;
 }
 
-h1{
+.principal{
+    background: #FF1493;
+    padding: 30px;
+}
+
+.titulo-principal{
+    color: #FF1493;
+    padding-left: 20px;
+}
+
+.titulo-centralizado{
     text-align: center;
-    color: #FFFFFF
 }
 
 p{
     text-align: center;
-    color: #FFFFFF
 }
 
 #missao{
@@ -25,4 +32,24 @@ p{
 em strong{
 
     color:#36013F
+}
+
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+    background: #9400D3;
+    padding: 20px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15px;
+}
+
+.imgb{
+    width: 50%;
 }
