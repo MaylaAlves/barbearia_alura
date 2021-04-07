@@ -11,19 +11,38 @@
 
 </head>
 <body>
+    <header>
+      <div class="caixa">
+
+      <h1><img id="logo" src="img/logo2.jpg" ></h1>
+
+      </div>
+    </header>
+
 
     <div class="formulario" id="contato">
         <h1>Contato</h1><br>
         <p>Segue abaixo nossos contatos:</p>
         <p class="local"><b>São Paulo, Brasil</b></p><br>
         <p><strong>Telefone:</strong> (11) 0101-0000</p> <p>ou</p>  <p><strong>Email:</strong> espacocloudg@cloudg.com.br</p><br><br>
-        <p> Mas caso prefiram podem deixar mensagem no campo abaixo:</p><br><br>
+        <p> Mas caso prefiram podem deixar seu contato no campo abaixo que respoderemos em breve:</p><br><br>
         <form>
-          <p><input class="identificacao" type="text" placeholder="Nome" ></p>
-          <p><input class="mensagem" type="text" placeholder="Mensagem" ></p>
-          <p><button class="enviar" type="submit">Enviar</button></p>
+
+          <label for="nome"> Nome:</label>
+          <input id="nome" type="text">
+  
+          <label for="email"> Email:</label>
+          <input id="email" type="email">
+  
+          <label for="telefone"> Telefone:</label>
+          <input id="telefone" type="number">
+  
+          <button id="botaoenviar">Enviar</button>
         </form>
-      </div>
+   
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
 
     <footer>
         <p class="copyright">&copy; Copyright Espaço CloudG - 2021</p>

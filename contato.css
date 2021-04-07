@@ -1,3 +1,14 @@
+.caixa{
+    width: 940px;
+    margin: 0 auto;
+    top: 20px;
+    left: 0;
+}
+
+#logo{
+    border-radius: 50px;
+}
+
 body{
 
     background-color:#E32F6C;
@@ -22,10 +33,12 @@ strong{
     color:#2C214D;
 }
 
-.mensagem{
-    padding-top: 16px!important;
-    padding-bottom: 16px!important;
-}
+button{
+    background:  #DAE9BD;
+    border: 1px solid transparent;
+    padding: 2px 20px;
+    border-radius: 3px;
+  }
 
 .copyright{
     color: #DAE9BD;
