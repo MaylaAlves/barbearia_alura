@@ -1,5 +1,5 @@
 body{
-    color: #FFFFFF;
+    color: #DAE9BD;
 }
 
 #banner{
@@ -8,12 +8,12 @@ body{
 }
 
 .principal{
-    background: #FF1493;
+    background: #E32F6C;
     padding: 30px;
 }
 
 .titulo-principal{
-    color: #FF1493;
+    color: #E32F6C;
     padding-left: 20px;
     text-align: center;
 }
@@ -32,7 +32,7 @@ p{
 
 em strong{
 
-    color:#36013F;
+    color:#2C214D;
 }
 
 .itens{
@@ -40,7 +40,7 @@ em strong{
 }
 
 .beneficios{
-    background: #9400D3;
+    background: #2C214D;
     padding: 20px;
 }
 
@@ -53,4 +53,10 @@ ul{
 
 .imgb{
     width: 50%;
+}
+
+.copyright{
+    color:#2C214D;
+    font-size: 13px;
+    margin: 20px 0 0;
 }

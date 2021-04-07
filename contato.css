@@ -1,0 +1,34 @@
+body{
+
+    background-color:#E32F6C;
+    color:  #DAE9BD;
+    text-align: center;
+}
+
+h1{
+    font-size: 36px;
+    color: #2C214D;
+    padding-left: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+strong{
+    color:#2C214D;
+}
+
+.mensagem{
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+}
+
+.copyright{
+    color: #DAE9BD;
+    font-size: 13px;
+    margin: 20px 0px 0 10px;
+}
